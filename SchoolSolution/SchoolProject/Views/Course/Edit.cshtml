@@ -1,0 +1,54 @@
+﻿@model SchoolProject.Models.Course
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container mt-5">
+    <h1 class="display-4">Edit Course</h1>
+
+
+
+    <form asp-action="Edit" class="mt-4">
+        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+            <input type="hidden" asp-for="CourseId" />
+            <div class="form-group">
+            <label asp-for="CourseName" class="font-weight-bold">Course Name</label>
+                <input asp-for="CourseName" class="form-control" />
+                <span asp-validation-for="CourseName" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+            <label asp-for="CourseCapicity" class="font-weight-bold">Course Capicity</label>
+                <input asp-for="CourseCapicity" class="form-control" />
+                <span asp-validation-for="CourseCapicity" class="text-danger"></span>
+            </div>
+        <br />
+            <div class="form-group">
+            <label asp-for="TeacherId" class="font-weight-bold">Teacher</label>
+                <select asp-for="TeacherId" class="form-control" asp-items="ViewBag.TeacherId">
+                    @{
+                        var x = new SchoolProject.Context.AppDbContext();
+                        foreach (var t in x.Teachers)
+                        {
+                            <option value="@t.TeacherId">@t.TeacherName</option>
+                        }
+
+                    }
+                </select>
+                <span asp-validation-for="TeacherId" class="text-danger"></span>
+            </div>
+        <br />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    
+<p></p>
+
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

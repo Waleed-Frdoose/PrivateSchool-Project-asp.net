@@ -1,0 +1,301 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\SchoolProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SchoolProject.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\StudentPictures\\188c5ddb-87f8-4fe3-a881-6b3e9a6b44d6photo_2023-09-17_22-06-41.jpg",
+      "PackagePath": "staticwebassets\\StudentPictures\\188c5ddb-87f8-4fe3-a881-6b3e9a6b44d6photo_2023-09-17_22-06-41.jpg"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\StudentPictures\\83c88c09-775c-4cd5-8164-35b15d1c8595car3.ico",
+      "PackagePath": "staticwebassets\\StudentPictures\\83c88c09-775c-4cd5-8164-35b15d1c8595car3.ico"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\StudentPictures\\9c919183-e1f3-47b1-8fdb-6e83af04fc54carr.png",
+      "PackagePath": "staticwebassets\\StudentPictures\\9c919183-e1f3-47b1-8fdb-6e83af04fc54carr.png"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\StudentPictures\\aca6b068-55cb-44f7-b17d-44fed3eb8d8acar1.ico",
+      "PackagePath": "staticwebassets\\StudentPictures\\aca6b068-55cb-44f7-b17d-44fed3eb8d8acar1.ico"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\StudentPictures\\c45f4973-bff6-4285-85ba-9da890b5c2b0car1.ico",
+      "PackagePath": "staticwebassets\\StudentPictures\\c45f4973-bff6-4285-85ba-9da890b5c2b0car1.ico"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\StudentPictures\\c9b4a522-8ffb-4b36-b2d0-cf60bfdc0b41car2.ico",
+      "PackagePath": "staticwebassets\\StudentPictures\\c9b4a522-8ffb-4b36-b2d0-cf60bfdc0b41car2.ico"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\StudentPictures\\d5ea3839-b614-4ffe-9045-aa01401808c5car.png",
+      "PackagePath": "staticwebassets\\StudentPictures\\d5ea3839-b614-4ffe-9045-aa01401808c5car.png"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\StudentPictures\\deba8d6d-bb5c-4355-abfa-c1b295cc8220car2.ico",
+      "PackagePath": "staticwebassets\\StudentPictures\\deba8d6d-bb5c-4355-abfa-c1b295cc8220car2.ico"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\StudentPictures\\f0aab51b-f08e-4586-857d-946c49a5a18fcar2.ico",
+      "PackagePath": "staticwebassets\\StudentPictures\\f0aab51b-f08e-4586-857d-946c49a5a18fcar2.ico"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\C#\\C# App\\4_MVC\\School Project\\SchoolSolution\\SchoolProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.SchoolProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.SchoolProject.props",
+      "PackagePath": "build\\SchoolProject.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.SchoolProject.props",
+      "PackagePath": "buildMultiTargeting\\SchoolProject.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.SchoolProject.props",
+      "PackagePath": "buildTransitive\\SchoolProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

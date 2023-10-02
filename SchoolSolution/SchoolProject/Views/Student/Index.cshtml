@@ -1,0 +1,68 @@
+﻿@model IEnumerable<SchoolProject.Models.Student>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container mt-5">
+    <h1 class="display-4">Students</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New</a>
+</p>
+    <table class="table table-bordered">
+        <thead class="thead-light">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Active
+            </th>
+            <th>
+                Age
+            </th>
+                <th>
+                    Photo
+                </th>
+                <th>
+                    Actions
+                </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentName)
+            </td>
+            <td>
+                        @if (item.isActive)
+                        {
+                            <span class="badge badge-success text-success">Yes</span>
+                        }
+                        else
+                        {
+                            <span class="badge badge-danger text-danger">No</span>
+                        }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentAge)
+            </td>
+                    <td>
+                        <img src="/StudentPictures/@item.StudentPhoto" width="50" height="50">
+                    </td>
+            <td>
+                        <a class="btn btn-info btn-sm" asp-action="Edit" asp-route-id="@item.StudentId">Edit</a> |
+                        @*<a class="btn btn-danger btn-sm" asp-action="Delete"  asp-route-id="@item.StudentId">Delete</a>*@
+                        @Html.ActionLink("Delete","Delete",new {id = @item.StudentId},
+                                         new {
+                                             @class="btn btn-danger btn-sm",
+                    onclick = "return confirm('Are You Want To Delet This Student?');"})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

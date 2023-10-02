@@ -1,0 +1,68 @@
+﻿@model IEnumerable<SchoolProject.Models.Course>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container mt-5">
+    <h1 class="display-4">Courses</h1>
+
+<p>
+        <a class="btn btn-primary" asp-action="Create">Create New</a>
+</p>
+    <table class="table table-bordered">
+        <thead class="thead-light">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Capicity
+            </th>
+            <th>
+                Teacher
+            </th>
+                <th>
+                    Actions
+                </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseCapicity)
+            </td>
+            <td>
+                    @{
+                        var x = new SchoolProject.Context.AppDbContext();
+                        var name = x.Teachers.Where(x => x.TeacherId == item.TeacherId).FirstOrDefault()!.TeacherName;
+                        if (name != null)
+                        {
+                            @Html.DisplayFor(modelItem => name)
+                        }
+                        else
+                        {
+                            <span>No Teacher Assigned</span>
+                        }
+                        
+                }
+                    
+                    
+            </td>
+            <td>
+                <a class="btn btn-info btn-sm" asp-action="Edit" asp-route-id="@item.CourseId">Edit</a> |
+                @*<a asp-action="Delete" asp-route-id="@item.CourseId">Delete</a>*@
+                    @Html.ActionLink("Delete","Delete",new {id = @item.CourseId},
+                new {
+                @class="btn btn-danger btn-sm",
+                onclick = "return confirm('Are You Want To Delet This Course?');"})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

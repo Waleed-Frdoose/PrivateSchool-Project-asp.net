@@ -1,0 +1,48 @@
+﻿@model IEnumerable<SchoolProject.Models.Teacher>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container mt-5">
+    <h1 class ="display-4">Teachers</h1>
+
+<p>
+        <a class="btn btn-primary" asp-action="Create">Create New</a>
+</p>
+<table class="table table-bordered">
+        <thead class="thead-light">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Age
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TeacherName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TeacherAge)
+            </td>
+            <td>
+                <a class="btn btn-info btn-sm" asp-action="Edit" asp-route-id="@item.TeacherId">Edit</a> |
+                @*<a asp-action="Delete" asp-route-id="@item.TeacherId">Delete</a>*@
+                    @Html.ActionLink("Delete","Delete",new {id = @item.TeacherId},
+                new {
+                @class="btn btn-danger btn-sm",
+                onclick = "return confirm('Are You Want To Delet This Teacher?');"})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

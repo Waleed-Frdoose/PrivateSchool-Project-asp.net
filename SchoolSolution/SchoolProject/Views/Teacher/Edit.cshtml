@@ -1,0 +1,39 @@
+﻿@model SchoolProject.Models.Teacher
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container mt-5">
+    <h1 class="display-4">Edit Teacher</h1>
+
+
+
+
+    <form asp-action="Edit" class="mt-4">
+        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+            <input type="hidden" asp-for="TeacherId" />
+            <div class="form-group">
+            <label asp-for="TeacherName" class="font-weight-bold">Teacher Name</label>
+                <input asp-for="TeacherName" class="form-control" />
+                <span asp-validation-for="TeacherName" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+            <label asp-for="TeacherAge" class="font-weight-bold">Teacher Age</label>
+                <input asp-for="TeacherAge" class="form-control" />
+                <span asp-validation-for="TeacherAge" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+ <p></p>
+
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,56 @@
+﻿@model SchoolProject.Models.Student
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container mt-5">
+    <h1 class="display-4">Edit Student</h1>
+
+
+
+    <form asp-action="Edit" class="mt-4" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+        <input type="hidden" asp-for="StudentId" />
+        <div class="form-group">
+            <label asp-for="StudentName" class="font-weight-bold">Student Name</label>
+            <input asp-for="StudentName" class="form-control" />
+            <span asp-validation-for="StudentName" class="text-danger"></span>
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="StudentAge" class="font-weight-bold">Student Age</label>
+            <input asp-for="StudentAge" class="form-control" />
+            <span asp-validation-for="StudentAge" class="text-danger"></span>
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="StudentPhoto" class="font-weight-bold">Student Photo</label>
+            <div class="d-flex align-items-center">
+                @*<img src="/StudentPictures/@Model.StudentPhoto" width="100" height="100" class="img-thumbnail mr-3" />*@
+                <input type="file" class="form-control-file" asp-for="StudentPhoto" />
+            </div>
+        </div>
+        <p></p>
+        <div class="form-group form-check">
+            <label class="form-check-label font-weight-bold">
+                <input class="form-check-input" asp-for="isActive" /> @Html.DisplayNameFor(model => model.isActive)
+            </label>
+        </div>
+        <br />
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+    </form>
+
+    <p></p>
+
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
